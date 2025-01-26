@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "classpath:features",
 		glue = "steps",
-		tags = "@Scenario1OfOtherLogin",
+		tags = "@LoginFeature",
 		monochrome = true,
 		dryRun = false,      //The purpose of dryRun in cucumber is basically to check the initialization and syntax errors in the code, and write it in my interview prep and teaching course
 		plugin = {
